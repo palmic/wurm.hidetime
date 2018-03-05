@@ -24,7 +24,6 @@ public class HideTime implements WurmServerMod, Configurable, PlayerMessageListe
                 communicator.player.getCommunicator().sendNormalServerMessage(WurmCalendar.getDateFor(WurmCalendar.getCurrentTime()));
                 return true;
             }
-            return false;
         }
         return false;
     }
